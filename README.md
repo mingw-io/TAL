@@ -51,6 +51,7 @@ b) Frontend
 
 **<ins>Opensource Tools Used</ins>**
 
+* Entity Framework Core (For Data Access)
 * Swashbucke (For API Documentation)
 * NUnit (For Unit test cases)
 * Ocelot (For API Gateway Aggregation)
