@@ -47,7 +47,7 @@ b) Frontend
 
 * C#.NET
 * ASP.NET Core Web API
-
+* MS SQL Server
 
 **<ins>Opensource Tools Used</ins>**
 
