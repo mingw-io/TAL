@@ -78,6 +78,17 @@ MS SQL Server Management Studio
 
 ![image](https://user-images.githubusercontent.com/70483213/167122286-1cb729c3-8bd2-4963-a0f6-15b5e86f2b20.png)
 
+**Exception Handling**
+
+![image](https://user-images.githubusercontent.com/70483213/167240645-935909b0-9d02-44eb-8ed8-db19055eb1e7.png)
+
+**Securing Controller Actions**
+
+![image](https://user-images.githubusercontent.com/70483213/167240669-e09aa1ba-e13c-4ed4-a1c9-bb61009d4dff.png)
+
+![image](https://user-images.githubusercontent.com/70483213/167240675-a399c495-4de3-4081-8421-1435784c43af.png)
+
+
 
 **<ins>Deployment</ins>**
 
