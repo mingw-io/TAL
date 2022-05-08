@@ -1,0 +1,61 @@
+<div class="container mt-3">
+    <div class="row mt-2 justify-content-center">
+        <h2>Monthly Premium Calculations</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-container p-3">
+            <form #ngLoginForm="ngForm"  name="form" (ngSubmit)="ngLoginForm.form.valid && onSubmit()" 
+          novalidate>
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" name="name" [(ngModel)]="premiumRequest.name" required
+                      #name="ngModel" />
+                    <div class="alert alert-danger" role="alert" *ngIf="ngLoginForm.submitted && name.errors">
+                      Name is required!
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="DOB">DOB [dd/mm/yyyy]</label>
+                    <input type="text" class="form-control" name="dob" [(ngModel)]="premiumRequest.dob" required
+                      #dob="ngModel" />
+                    <div class="alert alert-danger" role="alert" *ngIf="ngLoginForm.submitted && dob.errors">
+                      DOB is required!
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Occupation">Occupation</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="occupations" [(ngModel)]="premiumRequest.occupation" (change)="update($event)" required #occupation="ngModel">
+                        <option value="-1">Select an option</option>
+                        <option *ngFor="let item of occupations" [value]="item.id">
+                            {{item.name}}
+                        </option>
+                    </select>
+                    <div class="alert alert-danger" role="alert" *ngIf="ngLoginForm.submitted && !isOccupationValid">
+                      Occupation is required!
+                    </div>
+                </div>
+                <div class="form-group">
+                  <label for="DCA">Death Cover Amount</label>
+                  <input type="text" class="form-control" name="dca" [(ngModel)]="premiumRequest.deathAmount" required
+                    #deathAmount="ngModel" />
+                  <div class="alert alert-danger" role="alert" *ngIf="ngLoginForm.submitted && deathAmount.errors">
+                    Death Cover Amount is required!
+                  </div>
+              </div>
+                <div class="form-group">
+                  <button class="btn btn-primary btn-block">
+                    Calculate
+                  </button>
+                </div>
+                <div class="form-group">
+                  <div class="alert alert-warning alert-dismissible fade show" role="alert" *ngIf="ngLoginForm.submitted && isPremiumAvail">
+                    <strong>Premium:</strong> {{ premiumValue.toFixed(2) }}
+                  </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
