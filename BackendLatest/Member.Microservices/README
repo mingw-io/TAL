@@ -1,0 +1,12 @@
+﻿TAL Coding Exercise
+-------------------
+
+Project: Member.Microservices
+
+This project follows the microservice architecture offering services to our Members (e.g. premium calculations, reports, quotes, etc).
+
+This server will receive a HTTP incoming requests (e.g. GET, POST, etc verbs or methods). This requests are restricted to registered and
+authenticated users via means of JWT tokens.
+
+This project uses Entity Framework to fetch data from a MS SQL Server, Exception handling and logging (e.g. log4net).
+Of course it can be improved or enhanced (e.g. custom error messages, etc).

@@ -1,0 +1,15 @@
+﻿TAL Coding Exercise
+-------------------
+
+Project: Identity Service
+
+This project acts as a Authorization Service provinding JWT tokens to clients (a.k.a. users).
+
+This server will receive a HTTP incoming request (POST verb or method) with the user's credentials
+in the body of the request.
+
+After validating the input arguments, this server will look up the user in some repository (e.g. database).
+If the user is found, and its credentials are ok, then this server will provide a valid token to the client.
+
+This Authorization server is a standalone server, which allows for multiple and different consuming clients.
+This server could also be easily adapted or enhanced with offering several authentication methods (e.g. OpenAPI, etc.)
