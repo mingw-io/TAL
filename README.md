@@ -89,6 +89,16 @@ MS SQL Server Management Studio
 ![image](https://user-images.githubusercontent.com/70483213/167240675-a399c495-4de3-4081-8421-1435784c43af.png)
 
 
+**<ins>FRONTEND</ins>**
+
+Login screen
+![image](https://user-images.githubusercontent.com/70483213/167284889-2f11bbe1-3dcb-4009-93a2-4107df4caae8.png)
+
+Premium Calculation
+![image](https://user-images.githubusercontent.com/70483213/167284900-09a2d3bc-7ff4-433e-b6f5-7051d791c4c4.png)
+
+
+
 
 **<ins>Deployment</ins>**
 
