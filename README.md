@@ -102,6 +102,10 @@ Premium Calculation
 
 ![image](https://user-images.githubusercontent.com/70483213/167315994-3a3fde0e-613e-4df3-83e7-e9b713771e79.png)
 
+**<ins>Selenium Tests // Browser Automation</ins>**
+
+![image](https://user-images.githubusercontent.com/70483213/167334543-fb207d15-2822-498b-ac26-8822c6e85e1e.png)
+
 **<ins>Deployment</ins>**
 
     1. IIS
